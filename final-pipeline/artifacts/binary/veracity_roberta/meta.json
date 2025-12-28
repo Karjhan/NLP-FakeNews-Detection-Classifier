@@ -1,9 +1,0 @@
-{
-  "model_name": "readerbench/RoBERT-base",
-  "label_map": {
-    "0": "FALSE",
-    "1": "TRUE"
-  },
-  "input_field": "text_input",
-  "notes": "text_input uses long text if available (>=200 chars), else short; header includes [SHORT]/[LONG]."
-}
