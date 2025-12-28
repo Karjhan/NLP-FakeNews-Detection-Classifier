@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.ipynb_checkpoints/
+.DS_Store
+.git/
+.vscode/
+.idea/
+
+dataset-creation/
+binary/
+clickbait/
+multiclass/
+fusion/
+source_veracity/
+
+# Keep artifacts (do NOT ignore)
+# artifacts/

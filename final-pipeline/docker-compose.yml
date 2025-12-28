@@ -1,0 +1,12 @@
+services:
+  fake-news-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fake-news-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DEVICE=cpu
+      - TOKENIZERS_PARALLELISM=false
+    restart: unless-stopped
