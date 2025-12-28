@@ -1,0 +1,14 @@
+{
+  "threshold": 0.3549999999999999,
+  "selected_on": "val",
+  "metric": "f1_macro",
+  "val_score": 0.9897397094430993,
+  "created_at_utc": "2025-12-27T16:35:34",
+  "features": [
+    "logit_p_true_content",
+    "logit_p_not_clickbait",
+    "source_score",
+    "text_len",
+    "has_source"
+  ]
+}

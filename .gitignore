@@ -118,7 +118,6 @@ dataset-creation/**/*.csv
 # Always ignore runtime junk
 final-pipeline/**/__pycache__/
 final-pipeline/**/*.log
-final-pipeline/artifacts/**
 
 ############################
 # Secrets
