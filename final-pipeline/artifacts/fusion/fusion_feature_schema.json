@@ -1,10 +1,3 @@
-{
-  "feature_order": [
-    "logit_p_true_content",
-    "logit_p_not_clickbait",
-    "source_score",
-    "text_len",
-    "has_source"
-  ],
-  "notes": "Features are scaled with StandardScaler. source_score is log-odds from the source prior table."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:acb91bccd4a42112520f72050a89ab0a00e668d84d2e6470d742da5f65765aef
+size 256

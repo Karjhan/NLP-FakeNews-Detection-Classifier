@@ -1,9 +1,3 @@
-{
-  "model_name": "readerbench/RoBERT-base",
-  "label_map": {
-    "0": "FALSE",
-    "1": "TRUE"
-  },
-  "input_field": "text_input",
-  "notes": "text_input uses long text if available (>=200 chars), else short; header includes [SHORT]/[LONG]."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f5969ec5047c89d1e45c7b52d01fbcfa5453e4a50d55e325966c84fe681a127
+size 252

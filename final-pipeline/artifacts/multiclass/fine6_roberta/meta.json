@@ -1,29 +1,3 @@
-{
-  "model_name": "readerbench/RoBERT-base",
-  "classes": [
-    "TRUE",
-    "PARTIAL_TRUE",
-    "FALSE",
-    "MISLEADING",
-    "PROPAGANDA",
-    "SATIRE"
-  ],
-  "id2label": {
-    "0": "TRUE",
-    "1": "PARTIAL_TRUE",
-    "2": "FALSE",
-    "3": "MISLEADING",
-    "4": "PROPAGANDA",
-    "5": "SATIRE"
-  },
-  "label2id": {
-    "TRUE": 0,
-    "PARTIAL_TRUE": 1,
-    "FALSE": 2,
-    "MISLEADING": 3,
-    "PROPAGANDA": 4,
-    "SATIRE": 5
-  },
-  "input_field": "text_input",
-  "notes": "6-class fine-grained labels mapped from multiple datasets. Class imbalance handled via weighted CE."
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6af279c5e1f184133e9d7539d2e9d700826dfec532f2e0f93477b551fc4a0506
+size 610
